@@ -10,9 +10,9 @@ fi
 
 #check first argument
 if [[ $target == "drago2" ]]; then
-  url="http://prgdb.org/prgdb/drago2/pipe/"
+  url="https://prgdb.org/prgdb/drago2/pipe/"
 elif [[ $target == "drago3" ]]; then
-  url="http://prgdb.org/prgdb4/drago3/pipe/"
+  url="https://prgdb.org/prgdb4/drago3/pipe/"
 else
   echo "Only drago2/drago3 options are allowed when specifying the first argument."
 fi
